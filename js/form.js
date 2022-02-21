@@ -8,7 +8,7 @@ document.getElementById('submit-button').addEventListener('click', function(){
     const password = passwordFiled.value;
     passwordFiled.value=''
 
-    if (email == 'kopila@gmail.com' && password == 'kopila'){
+    if (email == 'kopila@gmail.com' && password == 'kopila@'){
         document.body.style.backgroundColor='green'
         window.location.href ='js/bank-page.html'
     }
