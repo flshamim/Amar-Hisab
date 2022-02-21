@@ -1,68 +1,38 @@
-document.getElementById('deposit-button').addEventListener('click',function(){
-    console.log('clicked')
-})
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// document.getElementById('deposit-button').addEventListener('click', function(){
-//     const depositFiled = document.getElementById('deposit-filed');
+document.getElementById('deposit-button').addEventListener('click', function(){
+    const depositFiled = document.getElementById('deposit-filed');
     
-//     const depositFiledAmount = depositFiled.value;
+    const depositFiledAmount = depositFiled.value;
 
-// const totalDeposite = document.getElementById('Blance');
+const totalDeposite = document.getElementById('Blance');
 
-// const oldBlance = totalDeposite.innerText;
-
-
-// const carrentBlance = parseInt(depositFiledAmount) + parseFloat(oldBlance)
+const oldBlance = totalDeposite.innerText;
 
 
-// console.log(carrentBlance)
+const carrentBlance = parseInt(depositFiledAmount) + parseFloat(oldBlance)
 
 
-//     const blanceInput = document.getElementById('deposit-filed');
-//     const newBlance = blanceInput.innerText;
-//     const oldBlance = document.getElementById('Blance');
+console.log(carrentBlance)
 
-//     oldBlance.innerText=newBlance;
+
+    const blanceInput = document.getElementById('deposit-filed');
+    const newBlance = blanceInput.innerText;
+    const oldBlance = document.getElementById('Blance');
+
+    oldBlance.innerText=newBlance;
    
-//     // depositFiled.value=''
-// });
+    // depositFiled.value=''
+});
 
-// document.getElementById('withdrow-button').addEventListener('click', function(){
-//     const inputFiled = document.getElementById('withdrow-filed');
-//     const inputFiledAmount = inputFiled.value;
+document.getElementById('withdrow-button').addEventListener('click', function(){
+    const inputFiled = document.getElementById('withdrow-filed');
+    const inputFiledAmount = inputFiled.value;
 
-//     const withdrowBlance = document.getElementById('withdrow-filed');
-//     const newblance = withdrowBlance.value;
+    const withdrowBlance = document.getElementById('withdrow-filed');
+    const newblance = withdrowBlance.value;
 
-//     const totalblance = document.getElementById('dicressblance');
-//     totalblance.innerText=newblance;
+    const totalblance = document.getElementById('dicressblance');
+    totalblance.innerText=newblance;
 
-//     inputFiled.value=''
-// })
+    inputFiled.value=''
+})
